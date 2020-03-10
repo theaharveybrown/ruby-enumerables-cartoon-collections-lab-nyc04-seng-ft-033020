@@ -9,7 +9,8 @@ def summon_captain_planet(arr)
 end
 
 def long_planeteer_calls(arr)
-  arr.any {|w| w.length > 4}
+  
+  arr.any? { |call| call.length > 4 }
 end
 
 def find_the_cheese(s)
