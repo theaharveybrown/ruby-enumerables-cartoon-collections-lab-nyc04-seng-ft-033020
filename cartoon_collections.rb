@@ -18,3 +18,6 @@ def find_the_cheese(s)
   cheese_types = ["cheddar", "gouda", "camembert"]
   s.find{|c| cheese_types.includes?(c)}
 end
+
+snacks = ["crackers", "gouda", "thyme"]
+find_the_cheese(snacks)
