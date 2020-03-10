@@ -17,5 +17,3 @@ def find_the_cheese(s)
   s.find{|c| cheese_types.include?(c)}
 end
 
-snacks = ["crackers", "gouda", "thyme"]
-find_the_cheese(snacks)
